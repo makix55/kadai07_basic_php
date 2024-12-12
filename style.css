@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: -10px;
+    /* h1との間を詰める場合 マイナスも使用可 */
+    color: #666;
+}
+
+h1 {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #FF7F50;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #80cfa1;;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #00b377;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+}
+
+th {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+td:nth-child(2),
+td[colspan='2'] {
+    text-align: center;
+    /* 回答数や合計を中央揃え */
+}
+
+/* 回答結果➀ */
+.result-1 {
+    color: #007BFF;
+}
+
+.graph-1 {
+    background-color: #007BFF;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* 回答結果➁ */
+.result-2 {
+    color: #FF5733;
+}
+
+.graph-2 {
+    background-color: #FF5733;
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* ボタンの無効化スタイル */
+button {
+    pointer-events: none;
+}
